@@ -9,6 +9,11 @@
 > **This repository contains pure GDAL commands run on Ubuntu Linux to process Landsat 9 imagery for The Americana at Brand in Glendale, California, reproject to NAD83 / California Zone 5 (EPSG:2229) , and create Cloud Optimized GeoTIFFs.**
 
 ---
+Good Links for self study: 
+Link 1: https://gdal.org/en/stable/drivers/raster/cog.html 
+Link 2: https://guide.cloudnativegeo.org/cloud-optimized-geotiffs/cogs-overview_resampling.html
+Link 3: https://geoexamples.com/other/2019-02-08-cog-tutorial/
+
 
 💻 System Requirements
 
