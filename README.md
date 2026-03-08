@@ -6,9 +6,17 @@
 [![Landsat](https://img.shields.io/badge/Landsat-9-red)](https://www.usgs.gov/landsat-missions/landsat-9)
 [![USGS](https://img.shields.io/badge/data-USGS-brown)](https://earthexplorer.usgs.gov)
 
-> **A complete workflow to download, visualize, and reproject Landsat 9 imagery using GDAL for The Americana at Brand in Glendale, California, converted to NAD83 / California Zone 5 (EPSG:2229) — the official LA County standard.**
+> **This repository contains pure GDAL commands run on Ubuntu Linux to process Landsat 9 imagery for The Americana at Brand in Glendale, California, reproject to NAD83 / California Zone 5 (EPSG:2229) , and create Cloud Optimized GeoTIFFs.**
 
 ---
+
+💻 System Requirements
+
+    Operating System: Ubuntu Linux (20.04 or later)
+    GDAL Version: 3.4+ (install with sudo apt-get install gdal-bin)
+    Storage: At least 10GB free space
+    RAM: 8GB recommended
+    
 
 ## 📋 **Table of Contents**
 - Project Overview
@@ -18,8 +26,11 @@
 - 📁 Data Folder Structure
 - 🚀 Quick Start
 - 🔄 Reprojection Workflow
-- 🌈 Creating RGB Composites
-- 📸 VRT vs GeoTIFF
+- 🌈 Creating RGB GeoTIFF(a GeoTIFF file that contains 3 bands)
+  Band 1: 🔴 Red channel
+  Band 2: 🟢 Green channel
+  Band 3: 🔵 Blue channel 
+- 📸 Creating Cloud Optimized GeoTIFF (COG)
 
 
 ## 🎯 **Project Overview**
@@ -43,7 +54,7 @@ This repository provides a complete, step-by-step guide to:
 |:-------------:|:---------:|
 | **Place** | The Americana at Brand, Glendale, CA |
 | **Latitude** | `34.1446° N` |
-| **Longitude** | `-118.2551° W` |
+| **Longitude** |`-118.2551° W` |
 | **Radius** | `1000 meters` |
 
 </div>
@@ -181,16 +192,17 @@ This project uses **Landsat 8-9 OLI/TIRS Collection 2 Level-1** data from the [U
 📦 landsat-americana-glendale
 ├── 📄 README.md # This file
 ├── 📂 scripts/
-│ ├── 🐍 explore_data.py # Inspect Landsat files
-│ ├── 🐍 reproject.py # Convert to CA Zone 5
-│ ├── 🐍 create_vrt.py # Make RGB VRT composite
-│ ├── 🐍 create_tiff.py # Make physical GeoTIFF
-│ └── 🐍 batch_process.py # Run everything at once
-├── 📂 docs/
-│ ├── 📄 GDAL_COMMANDS.md # GDAL cheatsheet
-│ ├── 📄 BAND_ORDER.md # Understanding RGB order
-│ └── 📄 TIFF_VS_GEOTIFF.md # Format explanations
-└── 📂 examples/
+│ ├──  # Inspect Landsat files
+│ ├──  # Convert to CA Zone 5
+│ ├──  # Make RGB VRT composite
+│ 
+│ 
+├── 📂 data(zipped folders0/
+│ ├── 📄 # Landsat downloaded files
+│ ├── 📄 # Understanding RGB order
+│ └── 📄 # Format explanation
+| └── 📄 # Format explanations
+└── 📂 examples(Will be added later)/
 └── 📄 analysis_examples.md # Sample analyses
 
 
