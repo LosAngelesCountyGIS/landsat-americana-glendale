@@ -66,6 +66,8 @@ This repository provides a complete, step-by-step guide to:
 
 This project uses **Landsat 8-9 OLI/TIRS Collection 2 Level-1** data from the [USGS EarthExplorer](https://earthexplorer.usgs.gov).
 
+Landsat files  ![USGS Logo](./images/landsat_files.png)
+
 Original Landsat files  ![USGS Logo](./images/Original_files.png)
 
 ### Selection Hierarchy
