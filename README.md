@@ -6,24 +6,21 @@
 [![Landsat](https://img.shields.io/badge/Landsat-9-red)](https://www.usgs.gov/landsat-missions/landsat-9)
 [![USGS](https://img.shields.io/badge/data-USGS-brown)](https://earthexplorer.usgs.gov)
 
-> **A complete workflow to download, reproject, and visualize Landsat 9 imagery for The Americana at Brand in Glendale, California, converted to NAD83 / California Zone 5 (EPSG:2229) - the official LA County standard.**
+> **A complete workflow to download, visualize, and reproject Landsat 9 imagery using GDAL for The Americana at Brand in Glendale, California, converted to NAD83 / California Zone 5 (EPSG:2229) — the official LA County standard.**
 
 ---
 
 ## 📋 **Table of Contents**
-- [Project Overview](#project-overview)
-- [📍 Location](#-location)
-- [🛰️ Data Source](#️-data-source)
-- [📊 Scene Details](#-scene-details)
-- [📁 Repository Structure](#-repository-structure)
-- [🚀 Quick Start](#-quick-start)
-- [📥 Download Instructions](#-download-instructions)
-- [🔄 Reprojection Workflow](#-reprojection-workflow)
-- [🌈 Creating RGB Composites](#-creating-rgb-composites)
-- [📸 VRT vs GeoTIFF](#-vrt-vs-geotiff)
-- [📝 License](#-license)
+- Project Overview
+- 📍 Location
+- 🛰️ 📥 Download Data from USGS
+- 📊 Scene Details
+- 📁 Data Folder Structure
+- 🚀 Quick Start
+- 🔄 Reprojection Workflow
+- 🌈 Creating RGB Composites
+- 📸 VRT vs GeoTIFF
 
----
 
 ## 🎯 **Project Overview**
 
