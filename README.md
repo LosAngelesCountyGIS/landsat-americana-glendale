@@ -23,14 +23,15 @@
 - 📍 Location
 - 🛰️ 📥 Download Data from USGS
 - 📊 Scene Details
-- 📁 Data Folder Structure
 - 🚀 Quick Start
 - 🔄 Reprojection Workflow
 - 🌈 Creating RGB GeoTIFF(a GeoTIFF file that contains 3 bands)
   Band 1: 🔴 Red channel
   Band 2: 🟢 Green channel
   Band 3: 🔵 Blue channel 
-- 📸 Creating Cloud Optimized GeoTIFF (COG)
+- ☁️ Creating Cloud Optimized GeoTIFF (COG)
+
+![USGS Logo](./images/usgs._gov.png)
 
 
 ## 🎯 **Project Overview**
@@ -188,24 +189,9 @@ This project uses **Landsat 8-9 OLI/TIRS Collection 2 Level-1** data from the [U
 
 ---
 
-## 📁 **Repository Structure**
-📦 landsat-americana-glendale
-├── 📄 README.md # This file
-├── 📂 scripts/
-│ ├──  # Inspect Landsat files
-│ ├──  # Convert to CA Zone 5
-│ ├──  # Make RGB VRT composite
-│ 
-│ 
-├── 📂 data(zipped folders0/
-│ ├── 📄 # Landsat downloaded files
-│ ├── 📄 # Understanding RGB order
-│ └── 📄 # Format explanation
-| └── 📄 # Format explanations
-└── 📂 examples(Will be added later)/
-└── 📄 analysis_examples.md # Sample analyses
 
 
+![USGS Logo](./images/Americana_RGB_COG.png)
 
 ---
 
